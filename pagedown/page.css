@@ -1,0 +1,38 @@
+.main-page {
+    height: 100vh;
+}
+.main-page > .container > ol {
+    background: #009688;
+    color: white;
+    padding: 50px 20;   
+}
+.main-page > .container > ol ol{
+    padding: 10px 50px;
+    line-height: 1.4;
+}
+.main-page > .container > ol ol li{
+    margin: 5px 0;
+    padding: 10px;
+    line-height: 1.4;
+    background-color: #e91e63;
+}
+.main-page > .container > ol ol li .spi{
+    font-size: 1.1rem;
+    color: #00ffe7;
+}
+@media(max-width:550px) {
+    .main-page > .container > ol ol li{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }   
+}
+.main-page > .container > ol ol li a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.main-page > .container > ol .sp{
+    font-size: 1.5rem;
+    color: #00ffe7;
+}
+
